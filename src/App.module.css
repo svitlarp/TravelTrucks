@@ -1,0 +1,80 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+:root {
+  --line-height: 1.5;
+  --color-white: #ffffff;
+  --color-inputs: #F7F7F7;
+  --color-badges: #F2F4F7;
+  --color-gray-light: #DADDE1;
+  --color0rating: #FFC531;
+  --color-button: #E44848;
+  --color-button-hover: #D84343;
+  --color-background: #6C717B;
+  --color-text: #475367;
+  --color-main: #101828;
+}
+
+.appContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  padding: 24px 64px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  width: 100%;
+}
+
+.navMenu {
+  justify-self: center;
+  display: flex;
+  gap: 32px;
+}
+
+.navLink {
+  color: var(--color-main);
+}
+
+.navLink:hover {
+  color: var(--color-button-hover);
+}
+
+
+
+
+/* Nav-menu */
+/* .nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.navMenu {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.navLink {
+  color: var(--color-main);
+}
+
+.navLink:hover {
+  color: var(--color-button-hover);
+}
+
+.logoImg {
+  margin: 28px 0 28px 64px;
+} */
+
+
+
